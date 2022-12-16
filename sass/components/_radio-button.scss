@@ -1,0 +1,36 @@
+.filter__list {
+    display: flex;
+    justify-content: center;
+}
+
+.filter {
+    margin-bottom: 34px;
+}
+
+.filter__button {
+    display: inline-block;
+    padding: 6px 22px;
+    margin-right: 8px;
+    border-radius: 4px;
+    color: #212121;
+    background-color: var(--prymary-background-color);
+    box-shadow: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.filter__button:hover,
+.filter__button:focus {
+    color: var(--wite-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px 0px #00000040;
+}

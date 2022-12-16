@@ -18,18 +18,19 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.cssi" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!-- ХЕДЕР -->
 
-    <header>
-      <div class="header container">
+    <header class="header">
+      <div class="header-case container">
         <a href="./index.html" lang="en" class="logo link"
           ><span class="logo__web">Web</span>Studio</a
         >
-        <nav class="nav">
-          <ul class="list nav__list">
+        <nav class="nav header-case__nav">
+          <ul class=" nav__list list">
             <li class="nav__item nav__item--active">
               <a href="./index.html" class="nav__link--active link">Студія</a>
             </li>
@@ -41,7 +42,7 @@
             </li>
           </ul>
         </nav>
-        <ul class="header-contacts list">
+        <ul class="header-contacts nav__header-contacts list">
           <li class="header-contacts__list">
             <a
               href="mailto:info@devstudio.com"
@@ -68,8 +69,8 @@
     <main>
       <!-- ГЕРОЙ -->
 
-      <section class="hero section">
-        <h1 class="hero__title">
+      <section class="hero">
+        <h1 class="hero__title hero-title__order-button">
           Ефективні рішення для <br />
           вашого бізнесу
         </h1>
@@ -80,7 +81,7 @@
         <!-- МОДАЛЬНЕ ВІКНО -->
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
-            <h3 class="modal__header">
+            <h3 class="modal__header modal-header__form">
               Залиште свої дані, ми вам передзвонимо
             </h3>
 
@@ -127,7 +128,7 @@
                 id="textarea"
               ></textarea>
 
-              <label class="checkbox">
+              <label class="checkbox checkbox__send-button">
                 <input
                   class="checkbox"
                   type="checkbox"
@@ -153,7 +154,7 @@
 
       <section class="feature section">
         <div class="container">
-          <h2 class="feature-hidden-header">Особливості</h2>
+          <h2 class="feature__hidden-header">Особливості</h2>
           <ul class="feature__list list">
             <li class="feature__item">
               <div class="feature__image">
@@ -260,7 +261,7 @@
               <div class="team__card">
                 <h3 class="team__name">Ігор Дем'яненко</h3>
 
-                <p lang="en" class="team__text">Product Designer</p>
+                <p lang="en" class="team__text team-text__social">Product Designer</p>
                 <div class="social">
                   <ul class="social__list list">
                     <li class="social__link">
@@ -304,7 +305,7 @@
               />
               <div class="team__card">
                 <h3 class="team__name">Ольга Рєпіна</h3>
-                <p lang="en" class="team__text">Frontend Developer</p>
+                <p lang="en" class="team__text team-text__social">Frontend Developer</p>
                 <div>
                   <ul class="social__list list">
                     <li class="social__link">
@@ -348,7 +349,7 @@
               />
               <div class="team__card">
                 <h3 class="team__name">Микола Тарасов</h3>
-                <p lang="en" class="team__text">Marketing</p>
+                <p lang="en" class="team__text team-text__social">Marketing</p>
                 <div>
                   <ul class="social__list list">
                     <li class="social__link">
@@ -392,7 +393,7 @@
               />
               <div class="team__card">
                 <h3 class="team__name">Михайло Єрмаков</h3>
-                <p lang="en" class="team__text">UI Designer</p>
+                <p lang="en" class="team__text team-text__social">UI Designer</p>
                 <div>
                   <ul class="social__list list">
                     <li class="social__link">
@@ -492,8 +493,8 @@
           <a href="./index.html" lang="en" class="logo logo--footer link"
             ><span class="logo__web">Web</span>Studio</a
           >
-          <addres class="addres">
-            <ul class="addres__list list">
+          <addres class="addres ">
+            <ul class="addres__list addres__logo--footer list">
               <li class="addres__item">м. Київ, пр-т Лесі Українки, 26</li>
               <li class="addres__item">
                 <a href="mailto:info@devstudio.com" class="link addres__mailto"
@@ -509,7 +510,7 @@
           </addres>
         </div>
 
-        <div class="footer-social">
+        <div class="footer-social footer-social__addres">
           <h4 class="footer-social__header">ПРИЄДНУЙТЕСЬ</h4>
           <ul class="footer-social__list list">
             <li class="footer-social__item">
@@ -542,7 +543,7 @@
             </li>
           </ul>
         </div>
-        <div class="footer-subscribe">
+        <div class="footer-subscribe footer-subscribe__social">
           <h4 class="footer-subscribe__header">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h4>
           <ul class="footer-subscribe__list list">
             <li class="footer-subscribe__item">
@@ -557,9 +558,9 @@
                 />
               </form>
             </li>
-            <li class="subscribe-link">
-              <button class="footer-subscribe__button" type="submit">
-                <span class="footer-subscribe__sign">Підписатися</span>
+            <li class="footer-subscribe__item">
+              <button class="subscribe-button" type="submit">
+                <span class="subscribe-button__sign">Підписатися</span>
                 <svg width="24" height="24">
                   <use href="./images/icons.svg#icon-send"></use>
                 </svg>
