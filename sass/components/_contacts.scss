@@ -1,14 +1,16 @@
 .header-contacts {
     display: flex;
+
+    .header-contacts__list + .header-contacts__list {
+      margin-left: 50px;
+    }
 }
 
 .nav__header-contacts {
     margin-left: auto;
 }
 
-.header-contacts .header-contacts__list + .header-contacts__list {
-    margin-left: 50px;
-}
+.header-contacts 
 
 .header-contacts__mailto,
 .header-contacts__tel {
@@ -22,15 +24,11 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.nav__link:hover,
-.header-contacts__mailto:hover,
-.header-contacts__tel:hover,
-.nav__link:focus,
-.header-contacts__mailto:focus,
-.header-contacts__tel:focus {
-    color: var(--accent-color);
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
 }
 
 .header-contacts__envelope {
