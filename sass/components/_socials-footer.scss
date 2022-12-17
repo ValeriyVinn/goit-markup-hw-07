@@ -2,11 +2,7 @@
 .footer-subscribe__header {
     color: var(--wite-color);
     margin-bottom: 20px;
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 16px;
-    letter-spacing: 0.03em;
+    @include font (700, 14, 16.41, 0.03);
     text-align: left;
 }
 

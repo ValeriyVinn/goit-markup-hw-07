@@ -23,17 +23,12 @@
 }
 
 .team__name {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+    @include font (500, 16, 18.75, 0.03);
     margin-bottom: 10px;
 }
 
 .team__text {
-    font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+    @include font (null, 16, 18.75, 0.03);
 }
 
 .team-text__social {

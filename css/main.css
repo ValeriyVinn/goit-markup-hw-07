@@ -101,9 +101,9 @@ body {
 .logo {
   color: #000000;
   font-family: Raleway, sans-serif;
-  font-size: 26px;
   font-weight: 700;
-  line-height: 1.19;
+  font-size: 26px;
+  line-height: 1.1738461538;
   letter-spacing: 0.03em;
 }
 
@@ -126,10 +126,10 @@ body {
 .nav__link {
   display: block;
   color: var(--primary-text-color);
-  font-size: 14px;
   font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  font-size: 14px;
+  line-height: 1.1721428571;
+  letter-spacing: 0.02emem;
   padding-bottom: 32px;
   padding-top: 32px;
   transition-property: color;
@@ -142,10 +142,10 @@ body {
 
 .nav__link--active {
   display: block;
-  font-size: 14px;
   font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  font-size: 14px;
+  line-height: 1.1721428571;
+  letter-spacing: 0.02emem;
   padding-bottom: 32px;
   padding-top: 32px;
   color: var(--accent-color);
@@ -172,20 +172,20 @@ body {
   margin-left: auto;
 }
 
-.header-contacts .header-contacts__mailto,
+.header-contacts__mailto,
 .header-contacts__tel {
   padding-bottom: 32px;
   padding-top: 32px;
   color: var(--secondary-text-color);
-  font-size: 14px;
   font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  font-size: 14px;
+  line-height: 1.1721428571;
+  letter-spacing: 0.02emem;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-contacts .header-contacts__mailto:hover, .header-contacts .header-contacts__mailto:focus,
+.header-contacts__mailto:hover, .header-contacts__mailto:focus,
 .header-contacts__tel:hover,
 .header-contacts__tel:focus {
   color: var(--accent-color);
@@ -223,9 +223,9 @@ body {
 
 .hero__title {
   color: #ffffff;
-  font-size: 44px;
   font-weight: 900;
-  line-height: 1.36;
+  font-size: 44px;
+  line-height: 1.3636363636;
   letter-spacing: 0.06em;
 }
 
@@ -239,9 +239,9 @@ body {
   background-color: var(--accent-color);
   cursor: pointer;
   font-family: inherit;
-  font-size: 16px;
   font-weight: 700;
-  line-height: 1.8;
+  font-size: 16px;
+  line-height: 1.875;
   letter-spacing: 0.06em;
   height: 50px;
   padding: 10px 32px;
@@ -290,9 +290,9 @@ body {
 }
 
 .modal__header {
-  font-size: 20px;
   font-weight: 700;
-  line-height: 1.15;
+  font-size: 20px;
+  line-height: 1.172;
   letter-spacing: 0.03em;
   text-align: center;
 }
@@ -308,8 +308,9 @@ body {
 .form__label {
   display: block;
   font-size: 12px;
-  line-height: 1.17;
+  line-height: 1.1716666667;
   letter-spacing: 0.01em;
+  color: rgb(117, 117, 117);
   text-align: left;
   margin-bottom: 4px;
 }
@@ -357,7 +358,7 @@ body {
   width: 448px;
   height: 120px;
   font-size: 12px;
-  line-height: 14px;
+  line-height: 1.1716666667;
   letter-spacing: 0.01em;
   text-align: left;
   border-radius: 4px;
@@ -377,7 +378,7 @@ body {
           appearance: none;
   align-items: center;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.7142857143;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -420,11 +421,12 @@ body {
   border-color: var(--accent-color);
   border-style: solid;
   border-width: 2px;
-  font-size: 16px;
   font-weight: 700;
-  line-height: 1.88px;
+  font-size: 16px;
+  line-height: 1.875;
   letter-spacing: 0.06em;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
 }
 .send-button:active {
   background-color: #188ce8;
@@ -482,15 +484,16 @@ body {
 }
 
 .feature__header {
+  font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.1721428571;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
 }
 
 .feature__text {
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.7142857143;
   letter-spacing: 0.03em;
 }
 
@@ -525,9 +528,9 @@ body {
   padding-bottom: 27px;
   color: #ffffff;
   background-color: rgba(47, 48, 58, 0.8);
-  font-size: 14px;
   font-weight: 700;
-  line-height: 1.14;
+  font-size: 14px;
+  line-height: 1.1721428571;
   letter-spacing: 0.03em;
   text-align: center;
 }
@@ -557,16 +560,16 @@ body {
 }
 
 .team__name {
-  font-size: 16px;
   font-weight: 500;
-  line-height: 1.19;
+  font-size: 16px;
+  line-height: 1.171875;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
 }
 
 .team__text {
   font-size: 16px;
-  line-height: 1.19;
+  line-height: 1.171875;
   letter-spacing: 0.03em;
 }
 
@@ -677,10 +680,9 @@ body {
 .footer-subscribe__header {
   color: var(--wite-color);
   margin-bottom: 20px;
-  font-family: Roboto;
-  font-size: 14px;
   font-weight: 700;
-  line-height: 16px;
+  font-size: 14px;
+  line-height: 1.1721428571;
   letter-spacing: 0.03em;
   text-align: left;
 }
@@ -751,9 +753,9 @@ body {
   margin-left: 12px;
   border-width: 2px;
   align-items: center;
-  font-size: 16px;
   font-weight: 700;
-  line-height: 1.88px;
+  font-size: 16px;
+  line-height: 1.875;
   letter-spacing: 0.06em;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
@@ -795,9 +797,9 @@ body {
   box-shadow: none;
   cursor: pointer;
   font-family: inherit;
-  font-size: 16px;
   font-weight: 500;
-  line-height: 1.6;
+  font-size: 16px;
+  line-height: 1.625;
   letter-spacing: 0.03em;
   text-align: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -806,6 +808,9 @@ body {
   color: var(--wite-color);
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+}
+.filter__button:active {
+  box-shadow: none;
 }
 
 .examples__list {
@@ -845,8 +850,7 @@ body {
   background-color: var(--accent-color);
   color: var(--wite-color);
   font-size: 18px;
-  font-weight: 400;
-  line-height: 1.56;
+  line-height: 1.5555555556;
   letter-spacing: 0.03em;
   text-align: left;
   transform: translateY(100%);
@@ -864,6 +868,10 @@ body {
 
 .product__header {
   color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -872,7 +880,7 @@ body {
 .product__text {
   color: var(--secondary-text-color);
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.875;
   letter-spacing: 0.03em;
 }
 

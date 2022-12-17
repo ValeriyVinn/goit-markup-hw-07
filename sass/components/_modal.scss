@@ -29,12 +29,8 @@
 }
 
 .modal__header {
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 1.15;
-    letter-spacing: 0.03em;
+    @include font (700, 20, 23.44, 0.03);
     text-align: center;
-
 }
 
 .modal-header__form {
@@ -47,9 +43,9 @@
 
 .form__label {
     display: block;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.01em;
+    @include font (null, 12, 14.06, 0.01);
+    color:rgba(117, 117, 117, 1);
+    
     text-align: left;
     margin-bottom: 4px;
 }
@@ -107,9 +103,8 @@
 
     width: 448px;
     height: 120px;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 0.01em;
+    
+    @include font (null, 12, 14.06, 0.01);
     text-align: left;
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -127,9 +122,7 @@
     display: flex;
     appearance: none;
     align-items: center;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
+    @include font (null, 14, 24, 0.03);
     color: #757575;
 
     &:checked + .checkbox__icon {
@@ -174,11 +167,9 @@
     border-style: solid;
     border-width: 2px;
 
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.88px;
-    letter-spacing: 0.06em;
+    @include font (700, 16, 30, 0.06);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 
     &:active {
       background-color: #188ce8;

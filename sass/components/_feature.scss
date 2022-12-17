@@ -33,15 +33,10 @@
 }
 
 .feature__header {
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-
+    @include font (700, 14, 16.41, 0.03);
     margin-bottom: 10px;
 }
 
 .feature__text {
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
+    @include font (null, 14, 24, 0.03);   
 }

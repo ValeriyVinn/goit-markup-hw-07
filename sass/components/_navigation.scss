@@ -14,10 +14,7 @@
 .nav__link {
     display: block;
     color: var(--primary-text-color);
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+    @include font (500, 14, 16.41, 0.02em);
     padding-bottom: 32px;
     padding-top: 32px;
     transition-property: color;
@@ -32,10 +29,7 @@
 
 .nav__link--active {
     display: block;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+    @include font (500, 14, 16.41, 0.02em);
     padding-bottom: 32px;
     padding-top: 32px;
     color: var(--accent-color);
